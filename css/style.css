@@ -1,0 +1,64 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.market-hd{
+    display: flex;
+    background-image: linear-gradient(to right, goldenrod,khaki);
+    height: 150px;
+}
+
+.market-hd img{
+    height: 150px;
+    width: 300px;
+}
+
+.market-hd h1{
+    text-align: center;
+    font-size: 40px;
+    color: black;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.market-hd p{
+    text-align: center;
+    margin-top: 0px;
+    font-style: italic;
+}
+
+.half-width{
+    width: 50%;
+}
+.left-image{
+    float: right;
+}
+
+.food-about{
+    display: flex;
+}
+.food-about h2{
+    display: inline-block;
+    font-size: 30px;
+    margin-top: 100px;
+}
+.food-about img{
+    height: 100%;
+    width: 100%;
+}
+
+#highlight{
+    color: green;
+}
+
+.button-style{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    color: white;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 18px;
+    background-image: linear-gradient(to right,green,yellow);
+
+}
