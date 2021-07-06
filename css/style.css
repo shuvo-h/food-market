@@ -128,8 +128,6 @@ body{
     box-shadow: 10px 10px 10px grey;
     text-align: left;
     padding: 20px 15px 15px 15px;
-
-    
 }
 
 .msn-style div{
@@ -149,4 +147,8 @@ body{
 
 .foot-style p{
     font-size: 15px;
+}
+
+#color{
+    color:chartreuse;
 }
