@@ -1,5 +1,8 @@
 body{
     font-family: 'Open Sans', sans-serif;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0px;
 }
 
 .market-hd{
@@ -35,8 +38,12 @@ body{
 }
 
 .food-about{
-    display: flex;
+    display: flex;    
 }
+.food-about div{
+    margin-left: 35px;    
+}
+
 .food-about h2{
     display: inline-block;
     font-size: 30px;
@@ -61,4 +68,54 @@ body{
     padding: 18px;
     background-image: linear-gradient(to right,green,yellow);
 
+}
+
+#back-image{
+    background-image: url("../images/Shape/background.png");
+    background-size: cover;
+}
+
+#text-margin{
+    margin-right: 150px;
+}
+
+.recipe-intr{
+    margin-left: 30%;
+    width: 40%;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    
+}
+
+.recipe{
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.recipe div{
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 26%;
+    padding: 15px;
+    box-shadow: 0px 0px 10px 12px rgb(207, 203, 203);
+    border-radius: 20px;
+}
+
+.recipe img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 280px;
+    width: 280px;
+    border-radius: 10%;
+    
+}
+
+.foot-style{
+    background-color: rgb(38, 36, 36);
+    color: white;
+    text-align: center;
+    display: block;
 }
